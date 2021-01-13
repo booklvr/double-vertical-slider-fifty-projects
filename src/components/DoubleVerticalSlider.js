@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react'
+import React, { useState, useRef } from 'react'
 
 const DoubleVerticalSlider = () => {
   const [activeIndex, setActiveIndex] = useState(0)
@@ -22,10 +22,6 @@ const DoubleVerticalSlider = () => {
 
     setTransformHeight(activeIndex * sliderHeight)
   }
-
-  useEffect(() => {
-    // console.log('ran again')
-  }, [transformHeight])
 
   return (
     <div ref={sliderContainer} className='slider-container'>

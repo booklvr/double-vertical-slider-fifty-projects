@@ -1,8 +1,8 @@
 import React from 'react'
-import placeholder from './components/placeholder'
+import DoubleVerticalSlider from './components/DoubleVerticalSlider'
 
 const App = () => {
-  return <placeholder />
+  return <DoubleVerticalSlider />
 }
 
 export default App
